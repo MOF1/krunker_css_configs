@@ -21,29 +21,38 @@
 		"target_url": "https://raw.githubusercontent.com/MOF1/krunker_css_raw/main/TheiF_CSS.zip",
 		"target_file": "css/configs.css"
 	},
-	"configs": [{
-			"title": "Your Logo",
+	"configs": [
+		{
+			"title": "Splash Logo",
 			"type": "imageURL",
-			"var": "--main-logo",
+			"var": "--splash-logo",
 			"default": "",
-			"description": "This logo will show in krunker main page & other places like ingame ui health section as well.",
-			"hint_image": "https://images.unsplash.com/photo-1553481187-be93c21490a9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Z2FtZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+			"description": "This logo will show in krunker loading page & other places like ingame ui health section as well.",
+			"hint_image": "https://cdn.discordapp.com/attachments/612260361806282793/885880129174249482/unknown.png"
+		},
+		{
+			"title": "Sidebar Logo",
+			"type": "imageURL",
+			"var": "--sidebar-logo",
+			"default": "",
+			"description": "This logo will show in krunker main menu sidebar.",
+			"hint_image": "https://cdn.discordapp.com/attachments/612260361806282793/885879340733186088/unknown.png"
 		},
 		{
 			"title": "Blur",
 			"type": "select",
 			"var": "--blur-radius",
 			"default": "On",
-			"description": "",
-			"hint_image": "",
+			"description": "Blur effects are available on sidebar & streambar",
+			"hint_image": "https://cdn.discordapp.com/attachments/612260361806282793/885879817990447174/unknown.png",
 			"options": [{
 					"name": "On",
 					"value": "20px",
-					"raw_value": "--status-bar: 20px;\n--ads: 0px;"
+					"raw_value": "--blur-radius1: 20px;\n--blur-radius2: 5px;"
 				},
 				{
 					"name": "Off",
-					"value": "0px"
+					"value": "--blur-radius1: 0px;\n--blur-radius2: 0px;"
 				}
 			]
 		},
