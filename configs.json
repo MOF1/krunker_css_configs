@@ -4,26 +4,15 @@
 		"logo": "https://cdn.discordapp.com/attachments/881449105782620160/885188254578659338/toppng.com-design-for-logo-356x330.png",
 		"cover": "https://images.unsplash.com/photo-1490810194309-344b3661ba39?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=990&q=80",
 		"description": "Krunker CSS is created to give players a different kind of experience in terms of Ui. Ui is pretty much clean. CSS is completely open-source anyone can use codes as they want (At least give some credit). Menu Ui is very much inspired by CSGO. To use the CSS you have to paste all of the files into KrunkerResourceSwapper.",
-		"repo": "dasd",
-		"site": "sdasd",
+		"repo": "https://github.com/MOF1/krunker_css",
+		"site": "https://MOF1.github.io",
 		"credits": [{
-				"name": "epicX67",
+				"name": "Team MOF1",
 				"contacts": [{
 						"type": "Github",
-						"link": ""
-					},
-					{
-						"type": "Youtube",
-						"link": ""
+						"link": "https://github.com/MOF1"
 					}
 				]
-			},
-			{
-				"name": "ThieF",
-				"contacts": [{
-					"type": "Youtube",
-					"link": ""
-				}]
 			}
 		]
 	},
@@ -61,8 +50,120 @@
 		{
 			"title": "Accent Color",
 			"type": "color",
-			"var": "--accent-color",
-			"default": "#FFFFFF",
+			"var": "--accentColor",
+			"default": "#39ffd4",
+			"description": "",
+			"hint_image": ""
+		},
+		{
+			"title": "Sub Accent Color",
+			"type": "color",
+			"var": "--accentColorST",
+			"default": "#39ffd469",
+			"description": "",
+			"hint_image": ""
+		},
+		{
+			"title": "L Accent Color",
+			"type": "color",
+			"var": "--accentColorST",
+			"default": "#84a1ff",
+			"description": "",
+			"hint_image": ""
+		},
+		{
+			"title": "Gradient 1",
+			"type": "color",
+			"var": "--gradientColor3",
+			"default": "#39ffd4",
+			"description": "",
+			"hint_image": ""
+		},
+		{
+			"title": "Gradient 2",
+			"type": "color",
+			"var": "--gradientColor4",
+			"default": "#84a1ff",
+			"description": "",
+			"hint_image": ""
+		},
+		{
+			"title": "Purple",
+			"type": "color",
+			"var": "--purple",
+			"default": "#987bff",
+			"description": "",
+			"hint_image": ""
+		},
+		{
+			"title": "Purple Dark",
+			"type": "color",
+			"var": "--purple-dark",
+			"default": "#592bff",
+			"description": "",
+			"hint_image": ""
+		},
+		{
+			"title": "Orange",
+			"type": "color",
+			"var": "--orange",
+			"default": "#ff9ea2",
+			"description": "",
+			"hint_image": ""
+		},
+		{
+			"title": "Orange Dark",
+			"type": "color",
+			"var": "--orange-dark",
+			"default": "#ff3943",
+			"description": "",
+			"hint_image": ""
+		},
+		{
+			"title": "Orange 2",
+			"type": "color",
+			"var": "--orange2",
+			"default": "#6797ff",
+			"description": "",
+			"hint_image": ""
+		},
+		{
+			"title": "Orange 2 Dark",
+			"type": "color",
+			"var": "--orange2-dark",
+			"default": "#2351b4",
+			"description": "",
+			"hint_image": ""
+		},
+		{
+			"title": "Green",
+			"type": "color",
+			"var": "--green",
+			"default": "#8bc34a",
+			"description": "",
+			"hint_image": ""
+		},
+		{
+			"title": "Green Dark",
+			"type": "color",
+			"var": "--green-dark",
+			"default": "#458100",
+			"description": "",
+			"hint_image": ""
+		},
+		{
+			"title": "Yellow",
+			"type": "color",
+			"var": "--yellow",
+			"default": "#ffeb3b",
+			"description": "",
+			"hint_image": ""
+		},
+		{
+			"title": "Yellow Dark",
+			"type": "color",
+			"var": "--yellow-dark",
+			"default": "#9b8b00",
 			"description": "",
 			"hint_image": ""
 		}
