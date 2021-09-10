@@ -41,18 +41,19 @@
 		{
 			"title": "Blur",
 			"type": "select",
-			"var": "--blur-radius",
+			"var": "--blur-radius1",
 			"default": "On",
 			"description": "Blur effects are available on sidebar & streambar",
 			"hint_image": "https://cdn.discordapp.com/attachments/612260361806282793/885879817990447174/unknown.png",
 			"options": [{
 					"name": "On",
 					"value": "20px",
-					"raw_value": "--blur-radius1: 20px;\n--blur-radius2: 5px;"
+					"raw_value": "--blur-radius2: 5px;"
 				},
 				{
 					"name": "Off",
-					"value": "--blur-radius1: 0px;\n--blur-radius2: 0px;"
+					"value": "0px",
+					"raw_value": "--blur-radius2: 0px;"
 				}
 			]
 		},
