@@ -2,8 +2,8 @@
   {
     "base": {
       "name": "MOF1",
-      "logo": "https://cdn.discordapp.com/attachments/881449105782620160/885188254578659338/toppng.com-design-for-logo-356x330.png",
-      "cover": "https://images.unsplash.com/photo-1490810194309-344b3661ba39?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=990&q=80",
+      "logo": "https://cdn.discordapp.com/attachments/612260361806282793/885906623271419974/mof1.png",
+      "cover": "https://cdn.discordapp.com/attachments/885806604694462505/885905898353098772/thumbnail.png",
       "description": "Krunker CSS is created to give players a different kind of experience in terms of Ui. Ui is pretty much clean. CSS is completely open-source anyone can use codes as they want (At least give some credit). Menu Ui is very much inspired by CSGO. To use the CSS you have to paste all of the files into KrunkerResourceSwapper.",
       "repo": "https://github.com/MOF1/krunker_css",
       "site": "https://MOF1.github.io",
