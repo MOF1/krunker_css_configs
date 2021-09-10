@@ -1,227 +1,162 @@
-[{
-	"base": {
-		"name": "MOF1",
-		"logo": "https://cdn.discordapp.com/attachments/881449105782620160/885188254578659338/toppng.com-design-for-logo-356x330.png",
-		"cover": "https://images.unsplash.com/photo-1490810194309-344b3661ba39?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=990&q=80",
-		"description": "Krunker CSS is created to give players a different kind of experience in terms of Ui. Ui is pretty much clean. CSS is completely open-source anyone can use codes as they want (At least give some credit). Menu Ui is very much inspired by CSGO. To use the CSS you have to paste all of the files into KrunkerResourceSwapper.",
-		"repo": "https://github.com/MOF1/krunker_css",
-		"site": "https://MOF1.github.io",
-		"credits": [{
-				"name": "Team MOF1",
-				"contacts": [{
-						"type": "Github",
-						"link": "https://github.com/MOF1"
-					}
-				]
-			}
-		]
-	},
-	"main": {
-		"target_type": "zip",
-		"target_url": "https://github.com/MOF1/krunker_css/releases/download/v2.1.3/MOF1_CSS.zip",
-		"target_file": "css/configs.css"
-	},
-	"configs": [
-		{
-			"title": "Splash Logo",
-			"type": "imageURL",
-			"var": "--splash-logo",
-			"default": "",
-			"description": "This logo will show in krunker loading page & other places like ingame ui health section as well.",
-			"hint_image": "https://cdn.discordapp.com/attachments/612260361806282793/885880129174249482/unknown.png"
-		},
-		{
-			"title": "Sidebar Logo",
-			"type": "imageURL",
-			"var": "--sidebar-logo",
-			"default": "",
-			"description": "This logo will show in krunker main menu sidebar.",
-			"hint_image": "https://cdn.discordapp.com/attachments/612260361806282793/885883451289530368/unknown.png"
-		},
-		{
-			"title": "Blur",
-			"type": "select",
-			"var": "--blur-radius1",
-			"default": "On",
-			"description": "Blur effects are available on sidebar & streambar",
-			"hint_image": "https://cdn.discordapp.com/attachments/612260361806282793/885879817990447174/unknown.png",
-			"options": [{
-					"name": "On",
-					"value": "20px",
-					"raw_value": "--blur-radius2: 5px;"
-				},
-				{
-					"name": "Off",
-					"value": "0px",
-					"raw_value": "--blur-radius2: 0px;"
-				}
-			]
-		},
-		{
-			"title": "SideBar icon Color on Hover",
-			"type": "color",
-			"var": "--sidebarIconColorOnHover",
-			"default": "#ffffff",
-			"description": "This color only applied on sidebar button on hover (Except Top sidebar logo & exit button)",
-			"hint_image": "https://cdn.discordapp.com/attachments/612260361806282793/885887300502966322/unknown.png"
-		},
-		{
-			"title": "SideBar icon Background Color on Hover",
-			"type": "color",
-			"var": "--sidebarIconBgOnHover",
-			"default": "#ffffff12",
-			"description": "This color only applied on sidebar button on hover (Except Top sidebar logo & exit button)",
-			"hint_image": "https://cdn.discordapp.com/attachments/612260361806282793/885887300502966322/unknown.png"
-		},
-		{
-			"title": "Accent Color",
-			"type": "color",
-			"var": "--accentColor",
-			"default": "#39ffd4",
-			"description": "Accent color used in all places in the css.",
-			"hint_image": "https://cdn.discordapp.com/attachments/612260361806282793/885815070087577650/unknown.png"
-		},
-		{
-			"title": "Sub Accent Color",
-			"type": "color",
-			"var": "--accentColorST",
-			"default": "#39ffd469",
-			"description": "Use same color of accent color with diff alpha value for better result",
-			"hint_image": "https://cdn.discordapp.com/attachments/612260361806282793/885815894893293588/unknown.png"
-		},
-		{
-			"title": "Gradient 1",
-			"type": "color",
-			"var": "--gradientColor4",
-			"default": "#84a1ff",
-			"description": "Mostly used in XP Bars",
-			"hint_image": "https://cdn.discordapp.com/attachments/612260361806282793/885814731422703626/unknown.png"
-		},
-		{
-			"title": "Gradient 2",
-			"type": "color",
-			"var": "--gradientColor3",
-			"default": "#39ffd4",
-			"description": "Mostly used in XP Bars",
-			"hint_image": "https://cdn.discordapp.com/attachments/612260361806282793/885814822367809536/unknown.png"
-		},
-		{
-			"title": "Purple",
-			"type": "color",
-			"var": "--purple",
-			"default": "#987bff",
-			"description": "",
-			"hint_image": "https://cdn.discordapp.com/attachments/612260361806282793/885816519395790878/unknown.png"
-		},
-		{
-			"title": "Purple Dark",
-			"type": "color",
-			"var": "--purple-dark",
-			"default": "#592bff",
-			"description": "",
-			"hint_image": "https://cdn.discordapp.com/attachments/612260361806282793/885816322062184469/unknown.png"
-		},
-		{
-			"title": "Red",
-			"type": "color",
-			"var": "--orange",
-			"default": "#ff9ea2",
-			"description": "",
-			"hint_image": "https://cdn.discordapp.com/attachments/612260361806282793/885816171889303582/unknown.png"
-		},
-		{
-			"title": "Red Dark",
-			"type": "color",
-			"var": "--orange-dark",
-			"default": "#ff3943",
-			"description": "",
-			"hint_image": "https://cdn.discordapp.com/attachments/612260361806282793/885816080080175124/unknown.png"
-		},
-		{
-			"title": "Yellow",
-			"type": "color",
-			"var": "--yellow",
-			"default": "#ffeb3b",
-			"description": "",
-			"hint_image": "https://cdn.discordapp.com/attachments/612260361806282793/885816853459517440/unknown.png"
-		},
-		{
-			"title": "Yellow Dark",
-			"type": "color",
-			"var": "--yellow-dark",
-			"default": "#9b8b00",
-			"description": "",
-			"hint_image": "https://cdn.discordapp.com/attachments/612260361806282793/885816697674666014/unknown.png"
-		}
-	]
-},
-{
-	"base": {
-		"name": "TheiF",
-		"logo": "https://cdn.discordapp.com/attachments/881449105782620160/885188254578659338/toppng.com-design-for-logo-356x330.png",
-		"cover": "https://images.unsplash.com/photo-1490810194309-344b3661ba39?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=990&q=80",
-		"description": "Krunker CSS is created to give players a different kind of experience in terms of Ui. Ui is pretty much clean. CSS is completely open-source anyone can use codes as they want (At least give some credit). Menu Ui is very much inspired by CSGO. To use the CSS you have to paste all of the files into KrunkerResourceSwapper.",
-		"repo": "dasd",
-		"site": "sdasd",
-		"credits": [{
-				"name": "epicX67",
-				"contacts": [{
-						"type": "Github",
-						"link": ""
-					},
-					{
-						"type": "Youtube",
-						"link": ""
-					}
-				]
-			},
-			{
-				"name": "ThieF",
-				"contacts": [{
-					"type": "Youtube",
-					"link": ""
-				}]
-			}
-		]
-	},
-	"main": {
-		"target_type": "zip",
-		"target_url": "https://raw.githubusercontent.com/MOF1/krunker_css_raw/main/TheiF_CSS.zip",
-		"target_file": "css/configs.css"
-	},
-	"configs": [{
-			"title": "Your Logo",
-			"type": "imageURL",
-			"var": "--main-logo",
-			"default": "",
-			"description": "This logo will show in krunker main page & other places like ingame ui health section as well.",
-			"hint_image": "https://images.unsplash.com/photo-1553481187-be93c21490a9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Z2FtZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
-		},
-		{
-			"title": "Blur",
-			"type": "select",
-			"var": "--blur-radius",
-			"default": "On",
-			"description": "",
-			"hint_image": "",
-			"options": [{
-					"name": "On",
-					"value": "20px",
-					"raw_value": "--status-bar: 20px;\n--ads: 0px;"
-				},
-				{
-					"name": "Off",
-					"value": "0px"
-				}
-			]
-		},
-		{
-			"title": "Accent Color",
-			"type": "color",
-			"var": "--accent-color",
-			"default": "#FFFFFF",
-			"description": "",
-			"hint_image": ""
-		}
-	]
-}]
+[
+  {
+    "base": {
+      "name": "MOF1",
+      "logo": "https://cdn.discordapp.com/attachments/881449105782620160/885188254578659338/toppng.com-design-for-logo-356x330.png",
+      "cover": "https://images.unsplash.com/photo-1490810194309-344b3661ba39?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=990&q=80",
+      "description": "Krunker CSS is created to give players a different kind of experience in terms of Ui. Ui is pretty much clean. CSS is completely open-source anyone can use codes as they want (At least give some credit). Menu Ui is very much inspired by CSGO. To use the CSS you have to paste all of the files into KrunkerResourceSwapper.",
+      "repo": "https://github.com/MOF1/krunker_css",
+      "site": "https://MOF1.github.io",
+      "credits": [
+        {
+          "name": "Team MOF1",
+          "contacts": [
+            {
+              "type": "Github",
+              "link": "https://github.com/MOF1"
+            }
+          ]
+        }
+      ]
+    },
+    "main": {
+      "target_type": "zip",
+      "target_url": "https://raw.githubusercontent.com/MOF1/krunker_css_raw/main/MOF1_CSS.zip",
+      "target_file": "css/configs.css"
+    },
+    "configs": [
+      {
+        "title": "Splash Logo",
+        "type": "imageURL",
+        "var": "--splash-logo",
+        "default": "",
+        "description": "This logo will show in krunker loading page & other places like ingame ui health section as well.",
+        "hint_image": "https://cdn.discordapp.com/attachments/612260361806282793/885880129174249482/unknown.png"
+      },
+      {
+        "title": "Sidebar Logo",
+        "type": "imageURL",
+        "var": "--sidebar-logo",
+        "default": "",
+        "description": "This logo will show in krunker main menu sidebar.",
+        "hint_image": "https://cdn.discordapp.com/attachments/612260361806282793/885883451289530368/unknown.png"
+      },
+      {
+        "title": "Blur",
+        "type": "select",
+        "var": "--blur-radius1",
+        "default": "On",
+        "description": "Blur effects are available on sidebar & streambar",
+        "hint_image": "https://cdn.discordapp.com/attachments/612260361806282793/885879817990447174/unknown.png",
+        "options": [
+          {
+            "name": "On",
+            "value": "20px",
+            "raw_value": "--blur-radius2: 5px;"
+          },
+          {
+            "name": "Off",
+            "value": "0px",
+            "raw_value": "--blur-radius2: 0px;"
+          }
+        ]
+      },
+      {
+        "title": "SideBar icon Color on Hover",
+        "type": "color",
+        "var": "--sidebarIconColorOnHover",
+        "default": "#ffffff",
+        "description": "This color only applied on sidebar button on hover (Except Top sidebar logo & exit button)",
+        "hint_image": "https://cdn.discordapp.com/attachments/612260361806282793/885887300502966322/unknown.png"
+      },
+      {
+        "title": "SideBar icon Background Color on Hover",
+        "type": "color",
+        "var": "--sidebarIconBgOnHover",
+        "default": "#ffffff12",
+        "description": "This color only applied on sidebar button on hover (Except Top sidebar logo & exit button)",
+        "hint_image": "https://cdn.discordapp.com/attachments/612260361806282793/885887300502966322/unknown.png"
+      },
+      {
+        "title": "Accent Color",
+        "type": "color",
+        "var": "--accentColor",
+        "default": "#39ffd4",
+        "description": "Accent color used in all places in the css.",
+        "hint_image": "https://cdn.discordapp.com/attachments/612260361806282793/885815070087577650/unknown.png"
+      },
+      {
+        "title": "Sub Accent Color",
+        "type": "color",
+        "var": "--accentColorST",
+        "default": "#39ffd469",
+        "description": "Use same color of accent color with diff alpha value for better result",
+        "hint_image": "https://cdn.discordapp.com/attachments/612260361806282793/885815894893293588/unknown.png"
+      },
+      {
+        "title": "Gradient 1",
+        "type": "color",
+        "var": "--gradientColor4",
+        "default": "#84a1ff",
+        "description": "Mostly used in XP Bars",
+        "hint_image": "https://cdn.discordapp.com/attachments/612260361806282793/885814731422703626/unknown.png"
+      },
+      {
+        "title": "Gradient 2",
+        "type": "color",
+        "var": "--gradientColor3",
+        "default": "#39ffd4",
+        "description": "Mostly used in XP Bars",
+        "hint_image": "https://cdn.discordapp.com/attachments/612260361806282793/885814822367809536/unknown.png"
+      },
+      {
+        "title": "Purple",
+        "type": "color",
+        "var": "--purple",
+        "default": "#987bff",
+        "description": "",
+        "hint_image": "https://cdn.discordapp.com/attachments/612260361806282793/885816519395790878/unknown.png"
+      },
+      {
+        "title": "Purple Dark",
+        "type": "color",
+        "var": "--purple-dark",
+        "default": "#592bff",
+        "description": "",
+        "hint_image": "https://cdn.discordapp.com/attachments/612260361806282793/885816322062184469/unknown.png"
+      },
+      {
+        "title": "Red",
+        "type": "color",
+        "var": "--orange",
+        "default": "#ff9ea2",
+        "description": "",
+        "hint_image": "https://cdn.discordapp.com/attachments/612260361806282793/885816171889303582/unknown.png"
+      },
+      {
+        "title": "Red Dark",
+        "type": "color",
+        "var": "--orange-dark",
+        "default": "#ff3943",
+        "description": "",
+        "hint_image": "https://cdn.discordapp.com/attachments/612260361806282793/885816080080175124/unknown.png"
+      },
+      {
+        "title": "Yellow",
+        "type": "color",
+        "var": "--yellow",
+        "default": "#ffeb3b",
+        "description": "",
+        "hint_image": "https://cdn.discordapp.com/attachments/612260361806282793/885816853459517440/unknown.png"
+      },
+      {
+        "title": "Yellow Dark",
+        "type": "color",
+        "var": "--yellow-dark",
+        "default": "#9b8b00",
+        "description": "",
+        "hint_image": "https://cdn.discordapp.com/attachments/612260361806282793/885816697674666014/unknown.png"
+      }
+    ]
+  }
+]
