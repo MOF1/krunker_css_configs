@@ -52,40 +52,32 @@
 			"type": "color",
 			"var": "--accentColor",
 			"default": "#39ffd4",
-			"description": "",
-			"hint_image": ""
+			"description": "Accent color used in all places in the css.",
+			"hint_image": "https://cdn.discordapp.com/attachments/612260361806282793/885815070087577650/unknown.png"
 		},
 		{
 			"title": "Sub Accent Color",
 			"type": "color",
 			"var": "--accentColorST",
 			"default": "#39ffd469",
-			"description": "",
-			"hint_image": ""
-		},
-		{
-			"title": "L Accent Color",
-			"type": "color",
-			"var": "--accentColorST",
-			"default": "#84a1ff",
-			"description": "",
-			"hint_image": ""
+			"description": "Use same color of accent color with diff alpha value for better result",
+			"hint_image": "https://cdn.discordapp.com/attachments/612260361806282793/885815894893293588/unknown.png"
 		},
 		{
 			"title": "Gradient 1",
 			"type": "color",
-			"var": "--gradientColor3",
-			"default": "#39ffd4",
-			"description": "",
-			"hint_image": ""
+			"var": "--gradientColor4",
+			"default": "#84a1ff",
+			"description": "Mostly used in XP Bars",
+			"hint_image": "https://cdn.discordapp.com/attachments/612260361806282793/885814731422703626/unknown.png"
 		},
 		{
 			"title": "Gradient 2",
 			"type": "color",
-			"var": "--gradientColor4",
-			"default": "#84a1ff",
-			"description": "",
-			"hint_image": ""
+			"var": "--gradientColor3",
+			"default": "#39ffd4",
+			"description": "Mostly used in XP Bars",
+			"hint_image": "https://cdn.discordapp.com/attachments/612260361806282793/885814822367809536/unknown.png"
 		},
 		{
 			"title": "Purple",
@@ -93,7 +85,7 @@
 			"var": "--purple",
 			"default": "#987bff",
 			"description": "",
-			"hint_image": ""
+			"hint_image": "https://cdn.discordapp.com/attachments/612260361806282793/885816519395790878/unknown.png"
 		},
 		{
 			"title": "Purple Dark",
@@ -101,55 +93,23 @@
 			"var": "--purple-dark",
 			"default": "#592bff",
 			"description": "",
-			"hint_image": ""
+			"hint_image": "https://cdn.discordapp.com/attachments/612260361806282793/885816322062184469/unknown.png"
 		},
 		{
-			"title": "Orange",
+			"title": "Red",
 			"type": "color",
 			"var": "--orange",
 			"default": "#ff9ea2",
 			"description": "",
-			"hint_image": ""
+			"hint_image": "https://cdn.discordapp.com/attachments/612260361806282793/885816171889303582/unknown.png"
 		},
 		{
-			"title": "Orange Dark",
+			"title": "Red Dark",
 			"type": "color",
 			"var": "--orange-dark",
 			"default": "#ff3943",
 			"description": "",
-			"hint_image": ""
-		},
-		{
-			"title": "Orange 2",
-			"type": "color",
-			"var": "--orange2",
-			"default": "#6797ff",
-			"description": "",
-			"hint_image": ""
-		},
-		{
-			"title": "Orange 2 Dark",
-			"type": "color",
-			"var": "--orange2-dark",
-			"default": "#2351b4",
-			"description": "",
-			"hint_image": ""
-		},
-		{
-			"title": "Green",
-			"type": "color",
-			"var": "--green",
-			"default": "#8bc34a",
-			"description": "",
-			"hint_image": ""
-		},
-		{
-			"title": "Green Dark",
-			"type": "color",
-			"var": "--green-dark",
-			"default": "#458100",
-			"description": "",
-			"hint_image": ""
+			"hint_image": "https://cdn.discordapp.com/attachments/612260361806282793/885816080080175124/unknown.png"
 		},
 		{
 			"title": "Yellow",
@@ -157,7 +117,7 @@
 			"var": "--yellow",
 			"default": "#ffeb3b",
 			"description": "",
-			"hint_image": ""
+			"hint_image": "https://cdn.discordapp.com/attachments/612260361806282793/885816853459517440/unknown.png"
 		},
 		{
 			"title": "Yellow Dark",
@@ -165,7 +125,7 @@
 			"var": "--yellow-dark",
 			"default": "#9b8b00",
 			"description": "",
-			"hint_image": ""
+			"hint_image": "https://cdn.discordapp.com/attachments/612260361806282793/885816697674666014/unknown.png"
 		}
 	]
 },
