@@ -57,6 +57,22 @@
 			]
 		},
 		{
+			"title": "SideBar icon Color on Hover",
+			"type": "color",
+			"var": "--sidebarIconColorOnHover",
+			"default": "#ffffff",
+			"description": "This color only applied on sidebar button on hover (Except Top sidebar logo & exit button)",
+			"hint_image": "https://cdn.discordapp.com/attachments/612260361806282793/885887300502966322/unknown.png"
+		},
+		{
+			"title": "SideBar icon Background Color on Hover",
+			"type": "color",
+			"var": "--sidebarIconBgOnHover",
+			"default": "#ffffff12",
+			"description": "This color only applied on sidebar button on hover (Except Top sidebar logo & exit button)",
+			"hint_image": "https://cdn.discordapp.com/attachments/612260361806282793/885887300502966322/unknown.png"
+		},
+		{
 			"title": "Accent Color",
 			"type": "color",
 			"var": "--accentColor",
