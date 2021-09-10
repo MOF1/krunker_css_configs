@@ -36,7 +36,7 @@
 			"var": "--sidebar-logo",
 			"default": "",
 			"description": "This logo will show in krunker main menu sidebar.",
-			"hint_image": "https://cdn.discordapp.com/attachments/612260361806282793/885879340733186088/unknown.png"
+			"hint_image": "https://cdn.discordapp.com/attachments/612260361806282793/885883451289530368/unknown.png"
 		},
 		{
 			"title": "Blur",
