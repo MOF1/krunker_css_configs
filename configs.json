@@ -158,5 +158,41 @@
         "hint_image": "https://cdn.discordapp.com/attachments/612260361806282793/885816697674666014/unknown.png"
       }
     ]
+  },
+  {
+    "base": {
+      "name": "Single CSS Example",
+      "logo": "https://cdn.discordapp.com/attachments/612260361806282793/885906623271419974/mof1.png",
+      "cover": "https://cdn.discordapp.com/attachments/612260361806282793/885907172846891058/Screenshot_1231.png",
+      "description": "This is a sample of single css support.",
+      "repo": "",
+      "site": "https://MOF1.github.io",
+      "credits": [
+        {
+          "name": "epicX67",
+          "contacts": [
+            {
+              "type": "Github",
+              "link": "https://github.com/epicX67"
+            }
+          ]
+        }
+      ]
+    },
+    "main": {
+      "target_type": "css",
+      "target_url": "https://raw.githubusercontent.com/MOF1/krunker_css/main/css/main_custom.css",
+      "target_file": ""
+    },
+    "configs": [
+      {
+        "title": "Splash Logo",
+        "type": "imageURL",
+        "var": "--splash-logo",
+        "default": "",
+        "description": "This logo will show in krunker loading page & other places like ingame ui health section as well.",
+        "hint_image": "https://cdn.discordapp.com/attachments/612260361806282793/885880129174249482/unknown.png"
+      }
+    ]
   }
 ]
