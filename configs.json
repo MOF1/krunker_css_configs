@@ -161,19 +161,32 @@
   },
   {
     "base": {
-      "name": "Single CSS Example",
-      "logo": "https://cdn.discordapp.com/attachments/612260361806282793/885906623271419974/mof1.png",
-      "cover": "https://cdn.discordapp.com/attachments/612260361806282793/885907172846891058/Screenshot_1231.png",
-      "description": "This is a sample of single css support.",
+      "name": "Simplistic",
+      "logo": "",
+      "cover": "https://cdn.discordapp.com/attachments/735869819358019606/887611800235933696/unknown.png",
+      "description": "A simple css for competitive players and pubstompers.",
       "repo": "",
-      "site": "https://MOF1.github.io",
+      "site": "https://furyka10.github.io/",
       "credits": [
         {
-          "name": "epicX67",
+          "name": "FuryKA10",
           "contacts": [
             {
               "type": "Github",
-              "link": "https://github.com/epicX67"
+              "link": "https://github.com/FuryKA10"
+            },
+            {
+              "type": "Discord",
+              "link": "FuryKA10#1432"
+            }
+          ]
+        },
+        {
+          "name": "Envy for the removal css :)",
+          "contacts": [
+            {
+              "type": "Discord",
+              "link": "Envy#9335"
             }
           ]
         }
@@ -181,17 +194,25 @@
     },
     "main": {
       "target_type": "css",
-      "target_url": "https://raw.githubusercontent.com/MOF1/krunker_css/main/css/main_custom.css",
+      "target_url": "https://raw.githubusercontent.com/FuryKA10/Simple/main/simplistic.css",
       "target_file": ""
     },
     "configs": [
       {
-        "title": "Splash Logo",
-        "type": "imageURL",
-        "var": "--splash-logo",
-        "default": "",
-        "description": "This logo will show in krunker loading page & other places like ingame ui health section as well.",
-        "hint_image": "https://cdn.discordapp.com/attachments/612260361806282793/885880129174249482/unknown.png"
+        "title": "Accent Color",
+        "type": "color",
+        "var": "--accent",
+        "default": "#eb5656",
+        "description": "",
+        "hint_image": ""
+      },
+      {
+        "title": "Accent Color 2",
+        "type": "color",
+        "var": "--accent2",
+        "default": "#9eeb56",
+        "description": "",
+        "hint_image": ""
       }
     ]
   }
