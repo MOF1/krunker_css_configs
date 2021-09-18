@@ -42,6 +42,16 @@
         "hint_image": "https://cdn.discordapp.com/attachments/612260361806282793/885883451289530368/unknown.png"
       },
       {
+        "title": "Profile Picture",
+        "type": "imageURL",
+        "var": "--profile-pic",
+        "default": "",
+        "raw_value_on_empty": "",
+        "raw_value_on_fill": "",
+        "description": "This image will work as premium profile pic for non premium user.",
+        "hint_image": "https://cdn.discordapp.com/attachments/612260361806282793/885883451289530368/unknown.png"
+      },
+      {
         "title": "Blur",
         "type": "select",
         "var": "--blur-radius1",
