@@ -47,7 +47,7 @@
         "var": "--profile-pic",
         "default": "",
         "raw_value_on_empty": "",
-        "raw_value_on_fill": "",
+        "raw_value_on_fill": "--profile-pic-op: 0;\n--profile-pic-sp: \"\";",
         "description": "This image will work as premium profile pic for non premium user.",
         "hint_image": "https://cdn.discordapp.com/attachments/612260361806282793/885883451289530368/unknown.png"
       },
