@@ -20,9 +20,9 @@
       ]
     },
     "main": {
-      "target_type": "zip",
-      "target_url": "https://raw.githubusercontent.com/MOF1/krunker_css_raw/main/MOF1_CSS.zip",
-      "target_file": "css/configs.css"
+      "target_type": "css",
+      "target_url": "https://raw.githubusercontent.com/MOF1/cdn/main/MOF1_CSS_default/main_custom.css",
+      "target_file": ""
     },
     "configs": [
       {
