@@ -12,7 +12,7 @@
           "name": "Team MOF1",
           "contacts": [
             {
-              "type": "Github",
+              "contact_type": "Github",
               "link": "https://github.com/MOF1"
             }
           ]
@@ -27,7 +27,7 @@
     "configs": [
       {
         "title": "Splash Logo",
-        "type": "imageURL",
+        "config_type": "imageURL",
         "var": "--splash-logo",
         "default": "",
         "description": "This logo will show in krunker loading page & other places like ingame ui health section as well.",
@@ -35,7 +35,7 @@
       },
       {
         "title": "Sidebar Logo",
-        "type": "imageURL",
+        "config_type": "imageURL",
         "var": "--sidebar-logo",
         "default": "",
         "description": "This logo will show in krunker main menu sidebar.",
@@ -43,7 +43,7 @@
       },
       {
         "title": "Profile Picture",
-        "type": "imageURL",
+        "config_type": "imageURL",
         "var": "--profile-pic",
         "default": "",
         "raw_value_on_empty": "",
@@ -53,7 +53,7 @@
       },
       {
         "title": "Blur",
-        "type": "select",
+        "config_type": "select",
         "var": "--blur-radius1",
         "default": "On",
         "description": "Blur effects are available on sidebar & streambar",
@@ -73,7 +73,7 @@
       },
       {
         "title": "SideBar icon Color on Hover",
-        "type": "color",
+        "config_type": "color",
         "var": "--sidebarIconColorOnHover",
         "default": "#ffffff",
         "description": "This color only applied on sidebar button on hover (Except Top sidebar logo & exit button)",
@@ -81,7 +81,7 @@
       },
       {
         "title": "SideBar icon Background Color on Hover",
-        "type": "color",
+        "config_type": "color",
         "var": "--sidebarIconBgOnHover",
         "default": "#ffffff12",
         "description": "This color only applied on sidebar button on hover (Except Top sidebar logo & exit button)",
@@ -89,7 +89,7 @@
       },
       {
         "title": "Accent Color",
-        "type": "color",
+        "config_type": "color",
         "var": "--accentColor",
         "default": "#39ffd4",
         "description": "Accent color used in all places in the css.",
@@ -97,7 +97,7 @@
       },
       {
         "title": "Sub Accent Color",
-        "type": "color",
+        "config_type": "color",
         "var": "--accentColorST",
         "default": "#39ffd469",
         "description": "Use same color of accent color with diff alpha value for better result",
@@ -105,7 +105,7 @@
       },
       {
         "title": "Gradient 1",
-        "type": "color",
+        "config_type": "color",
         "var": "--gradientColor4",
         "default": "#84a1ff",
         "description": "Mostly used in XP Bars",
@@ -113,7 +113,7 @@
       },
       {
         "title": "Gradient 2",
-        "type": "color",
+        "config_type": "color",
         "var": "--gradientColor3",
         "default": "#39ffd4",
         "description": "Mostly used in XP Bars",
@@ -121,7 +121,7 @@
       },
       {
         "title": "Purple",
-        "type": "color",
+        "config_type": "color",
         "var": "--purple",
         "default": "#987bff",
         "description": "",
@@ -129,7 +129,7 @@
       },
       {
         "title": "Purple Dark",
-        "type": "color",
+        "config_type": "color",
         "var": "--purple-dark",
         "default": "#592bff",
         "description": "",
@@ -137,7 +137,7 @@
       },
       {
         "title": "Red",
-        "type": "color",
+        "config_type": "color",
         "var": "--orange",
         "default": "#ff9ea2",
         "description": "",
@@ -145,7 +145,7 @@
       },
       {
         "title": "Red Dark",
-        "type": "color",
+        "config_type": "color",
         "var": "--orange-dark",
         "default": "#ff3943",
         "description": "",
@@ -153,7 +153,7 @@
       },
       {
         "title": "Yellow",
-        "type": "color",
+        "config_type": "color",
         "var": "--yellow",
         "default": "#ffeb3b",
         "description": "",
@@ -161,7 +161,7 @@
       },
       {
         "title": "Yellow Dark",
-        "type": "color",
+        "config_type": "color",
         "var": "--yellow-dark",
         "default": "#9b8b00",
         "description": "",
@@ -182,11 +182,11 @@
           "name": "FuryKA10",
           "contacts": [
             {
-              "type": "Github",
+              "contact_type": "Github",
               "link": "https://github.com/FuryKA10"
             },
             {
-              "type": "Discord",
+              "contact_type": "Discord",
               "link": "FuryKA10#1432"
             }
           ]
@@ -195,7 +195,7 @@
           "name": "Envy for the removal css :)",
           "contacts": [
             {
-              "type": "Discord",
+              "contact_type": "Discord",
               "link": "Envy#9335"
             }
           ]
@@ -210,7 +210,7 @@
     "configs": [
       {
         "title": "Accent Color",
-        "type": "color",
+        "config_type": "color",
         "var": "--accent",
         "default": "#eb5656",
         "description": "",
@@ -218,7 +218,7 @@
       },
       {
         "title": "Accent Color 2",
-        "type": "color",
+        "config_type": "color",
         "var": "--accent2",
         "default": "#9eeb56",
         "description": "",
